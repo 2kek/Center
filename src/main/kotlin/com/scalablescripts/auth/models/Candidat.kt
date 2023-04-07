@@ -16,6 +16,15 @@ class Candidat {
     @Column
     var email = ""
 
+//    @Column
+//    var date = ""
+//
+//    @Column
+//    var chosenSpecialty = ""
+//
+//    @Column
+//    var testGrade: Int = 0
+
     @Column
     var password = ""
         @JsonIgnore

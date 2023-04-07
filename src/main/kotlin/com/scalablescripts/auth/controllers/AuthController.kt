@@ -14,7 +14,7 @@ import javax.servlet.http.Cookie
 import javax.servlet.http.HttpServletResponse
 
 @RestController
-@RequestMapping("api")
+@RequestMapping("auth")
 class AuthController(private val userService: UserService) {
 
     @PostMapping("register")
